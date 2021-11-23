@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+  @media (max-width: 960px) {
+  .main_container {
+    width: 100%;
+  }
+}
+  @media (max-width: 720px) {
+    .main_container {
+      width: 100%;
+    }
+  }
+  @media (max-width: 540px) {
+    .main_container {
+      width: 100%;
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: #fce3ff;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    color: #ffffff;
+
+  }
+  .main_container {
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .title_center {
+    text-align: center;
+  }
+  .sub_title {
+    text-align: center;
+  }
+  .strike_through_sub_title {
+    text-decoration: line-through;
+  }
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+    .profile_img_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+    .profile_img {
+      margin-left: 1em;
+      width: 250px;
+      height: 250px
+    }
+    .profile_article {
+      margin-left: 1em;
+      padding-left: 3em;
+      padding-right: 3em;
+      font-size: 1.2em;
+      text-align: center;
+
+    }
+    .btns_social_links {
+      display: flex;
+      flex-direction: column
+    }
+    .follow_me_btn {
+      align-self: center;
+      margin-top: 2em;
+      margin-left: 4em;
+      width: 200px;
+      box-shadow:inset 0px 1px 0px 0px #fbafe3;
+      background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+      background-color:#ff5bb0;
+      border-radius:6px;
+      border:1px solid #ee1eb5;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #c70067;
+    }
+    a {
+      text-decoration: none;
+      color: #ffffff
+    }
+
+    .social_header {
+      margin-left: 1.5em;
+      font-weight: 800;
+      color: #111
+    }
+    .social_links {
+      list-style-type: none;
+      margin-left: 0.75em;
+    }
+    .fa-lnkedin-in:hover {
+      cursor: pointer
+    }
+    .fa-twitter:before {
+      color: rgb(27, 27, 231);
+    }
+    .fa-linkedin-in:hover {
+      cursor: pointer;
+    }
+    .fa-linkedin-in:before {
+      color: rgb(27, 27, 231);
+    }
+  </style>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <title>My Profile</title>
+</head>
+<body>
+  <div class="header">
+    <h1 class="title_center"><i class="fas fa-terminal"></i> Welcome! I'm Shante J.</h1>
+    <h2 class="sub_title"> <s>English Teacher</s> <i class="far fa-window-close"></i>
+      <br>
+      A full-stack developer
+    </h2>
+  </div>
+  <div class="sidenav_right btns_social_links">
+    <h2 class="social_header"> Follow Me</h2>
+    <ul>
+      <li class="social_links">
+        <a href="https://www.twitter.com">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      <li class="social_links">
+        <a href="https://www.linkedin.com">
+          <i class="fab fa-linkedin-in">
+          </i>
+        </a>
+      </li>
+  </div>
+
+  <div class="main_container">
+  <div class="profile_img_div">
+    <img class="profile_img" src="../profile/images/fukidashi_tensyoku_woman.png">
+  </div>
+
+  <div class="profile_info">
+    <article class="profile_article"> Adding some lorem for now! Bork doggorino such treat, you are doing me a frighten. Yapper heckin many pats
+      long doggo wow such tempt most angery pupper I have ever seen, extremely cuuuuuute you are doing me a frighten
+      such treat maximum borkdrive very jealous pupper, doggorino long doggo you are doing me the shock floofs.
+    </article>
+    <button class="follow_me_btn">
+      <a href="https://github.com/TofuSupreme">Check Out My Github
+      </a></button>
+    <br>
+  </div>
+    </div>
+</body>
+</html>
