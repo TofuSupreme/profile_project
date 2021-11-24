@@ -15,108 +15,66 @@
     width: 100%;
   }
 }
+
 body {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   background-color: #fce3ff;
+  display: flex;
+  flex-direction: column;
 }
 .header {
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+  padding: 0.5em;
   background-color: #111;
   color: #ffffff;
-
-}
-.main_container {
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  font-family: 'Open Sans', sans-serif;
-}
-.title_center {
   text-align: center;
-}
-.sub_title {
-  text-align: center;
-}
-.strike_through_sub_title {
-  text-decoration: line-through;
-}
 
-.profile_info {
-display: flex;
-flex-direction: column;
-align-items: center;
 }
-
-  .profile_img_div {
+.card {
+  width: 40rem;
   display: flex;
+  align-self: center;
   flex-direction: column;
-  align-items: center;
-
-  }
-  .profile_img {
-    margin-left: 1em;
-    width: 250px;
-    height: 250px
-  }
-  .profile_article {
-    margin-left: 1em;
-    padding-left: 3em;
-    padding-right: 3em;
-    font-size: 1.2em;
-    text-align: center;
-
-  }
-  .btns_social_links {
+  font-family: 'Open Sans', sans-serif;
+  font: inherit;
+  font-size: 100%;
+  margin-top: 4rem;
+  vertical-align: baseline;
+  border-style:groove;
+}
+.card-body {
     display: flex;
-    flex-direction: column
-  }
-  .follow_me_btn {
-    align-self: center;
-    margin-top: 2em;
-    margin-left: 4em;
-    width: 200px;
-    box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
-    background-color:#ff5bb0;
-    border-radius:6px;
-    border:1px solid #ee1eb5;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:15px;
-    font-weight:bold;
-    padding:6px 24px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #c70067;
-  }
-  a {
-    text-decoration: none;
-    color: #ffffff
+    flex-direction: column;
+    align-items: center;
+}
+  .profile_img {
+    background-image: url("/images/Cropped_profile_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
   }
 
-  .social_header {
-    margin-left: 1.5em;
-    font-weight: 800;
-    color: #111
-  }
-  .social_links {
-    list-style-type: none;
-    margin-left: 0.75em;
-  }
-  .fa-lnkedin-in:hover {
-    cursor: pointer
-  }
-  .fa-twitter:before {
-    color: rgb(27, 27, 231);
-  }
-  .fa-linkedin-in:hover {
+  .profile_img:hover {
+    background-image: url("/images/fukidashi_tensyoku_woman.png");
     cursor: pointer;
   }
-  .fa-linkedin-in:before {
-    color: rgb(27, 27, 231);
+
+  .profile_text {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .le_wagon_logo {
+    vertical-align: middle;
+    width: 50px;
+    height: 30px;
+  }
+
+  .social_links_header {
+    text-align: center;
   }
