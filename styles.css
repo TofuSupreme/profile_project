@@ -51,7 +51,7 @@ body {
     align-items: center;
 }
   .profile_img {
-    background-image: url("/images/Cropped_profile_img.jpg");
+    background-image: url("images/Cropped_profile_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
@@ -60,7 +60,7 @@ body {
   }
 
   .profile_img:hover {
-    background-image: url("/images/fukidashi_tensyoku_woman.png");
+    background-image: url("images/fukidashi_tensyoku_woman.png");
     cursor: pointer;
   }
 
